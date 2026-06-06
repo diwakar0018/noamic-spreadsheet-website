@@ -51,7 +51,7 @@ export default function FinalCTA() {
         >
           <a
             href="#download"
-            className="w-full sm:w-auto inline-flex items-center justify-center px-8 py-4 rounded-xl bg-blue-600 hover:bg-blue-700 text-white font-semibold shadow-xl shadow-blue-600/20 transition-all gap-2 hover:-translate-y-0.5"
+            className="w-full sm:w-auto inline-flex items-center justify-center px-8 py-4 rounded-xl bg-blue-600 hover:bg-blue-755 text-white font-semibold shadow-xl shadow-blue-600/20 transition-all gap-2 hover:-translate-y-0.5"
           >
             <Download className="w-5 h-5" />
             Download Now

@@ -11,6 +11,8 @@ export default function DownloadSection() {
     { label: 'Compatibility', val: 'Microsoft Excel (.xlsx)' },
   ]
 
+  const directDownloadUrl = "https://drive.google.com/uc?export=download&id=1w0Kmb8xuOPc4qpGnK4TS32-nANwHstKd"
+
   return (
     <section id="download" className="py-24 bg-slate-950 relative overflow-hidden border-t border-slate-900/60">
       {/* Background Glow */}
@@ -41,9 +43,10 @@ export default function DownloadSection() {
               {/* Action Buttons */}
               <div className="flex flex-col sm:flex-row gap-4 mb-8">
                 <a
-                  href="#"
-                  onClick={(e) => e.preventDefault()}
-                  className="inline-flex items-center justify-center gap-2 px-6 py-3.5 rounded-xl bg-blue-600 hover:bg-blue-750 text-white font-semibold shadow-lg shadow-blue-600/20 hover:shadow-blue-600/35 transition-all"
+                  href={directDownloadUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center justify-center gap-2 px-6 py-3.5 rounded-xl bg-blue-600 hover:bg-blue-755 text-white font-semibold shadow-lg shadow-blue-600/20 hover:shadow-blue-600/35 transition-all"
                 >
                   <Download className="w-5 h-5" />
                   Download for Windows
