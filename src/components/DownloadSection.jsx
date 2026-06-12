@@ -11,7 +11,7 @@ export default function DownloadSection() {
     { label: 'Compatibility', val: 'Microsoft Excel (.xlsx)' },
   ]
 
-  const directDownloadUrl = "https://drive.google.com/uc?export=download&id=1w0Kmb8xuOPc4qpGnK4TS32-nANwHstKd"
+  const directDownloadUrl = "https://drive.google.com/file/d/1w0Kmb8xuOPc4qpGnK4TS32-nANwHstKd/view?usp=sharing"
 
   return (
     <section id="download" className="py-24 bg-slate-950 relative overflow-hidden border-t border-slate-900/60">
